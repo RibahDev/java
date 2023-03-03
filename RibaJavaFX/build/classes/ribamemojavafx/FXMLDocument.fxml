@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="ribamemojavafx.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnClick" layoutX="126.0" layoutY="123.0" mnemonicParsing="false" onAction="#clicouBotao" text="Click Aqui" />
+      <Label fx:id="lblMensagem" layoutX="38.0" layoutY="48.0" text="!VIRUS ENCONTRADO!" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblMensagem2" layoutX="74.0" layoutY="92.0" text="Clique para ATIVAR o ANTVIRUS" />
+   </children>
+</AnchorPane>
